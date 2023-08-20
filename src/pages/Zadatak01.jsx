@@ -7,7 +7,7 @@ export default function Zadatak01() {
     setNumber(e.target.value)
   }
   return (
-    <div style={{height:"200px", width:"300px", background:"pink"}}>
+    <div style={{height:"200px", width:"300px", background:"yellow"}}>
         <div>
             
             <p className='number'>NUMBER  <span style={{fontSize:"32px", color:"black"}}>{number}</span></p>
