@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Zadatak01 from './pages/Zadatak01';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <h2>ala se ovo vrti Daki</h2>
+        <Zadatak01 />
           Learn React
       </header>
     </div>
