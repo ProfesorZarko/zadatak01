@@ -10,7 +10,7 @@ export default function Zadatak01() {
     <div style={{height:"200px", width:"300px", background:"yellow"}}>
         <div>
             
-            <p className='number'>NUMBER  <span style={{fontSize:"32px", color:"black"}}>{number}</span></p>
+            <p className='number'>SELECTED NUMBER IS: <span style={{fontSize:"32px", color:"black"}}>{number}</span></p>
             <div onChange={handleChange}>
               <input type="radio" name="number" value={3}/> 3
               <input type="radio" name="number" value={5}/> 5
