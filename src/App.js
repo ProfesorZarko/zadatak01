@@ -7,12 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-<<<<<<< HEAD
         <TableMemorijaZaRačunare />
-=======
-      <TableMemorijaZaRačunare />
-        <h2>ala se ovo vrti Daki</h2>
->>>>>>> 87e2186d15c6d9fcd07559fcd84bc20700f1193d
         <Zadatak01 />
       </header>
       <TableMemorijaZaRačunare />
