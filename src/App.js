@@ -1,19 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import TableMemorijaZaRačunare from './components/TableMemorijaZaRačunare';
 import Zadatak01 from './pages/Zadatak01';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+      <TableMemorijaZaRačunare />
         <h2>ala se ovo vrti Daki</h2>
         <Zadatak01 />
           Learn React
       </header>
+      <TableMemorijaZaRačunare />
     </div>
   );
 }
