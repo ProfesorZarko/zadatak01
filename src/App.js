@@ -1,16 +1,17 @@
 import './App.css';
 import TableMemorijaZaRačunare from './components/TableMemorijaZaRačunare';
 import Zadatak01 from './pages/Zadatak01';
-import TableMemorijaZaRačunare from './components/TableMemorijaZaRačunare';
-
+import Daki from "./pages/Daki.jsx"
 function App() {
   return (
-    <div className="App">
+      <div className="App">
       <header className="App-header">
-        <TableMemorijaZaRačunare />
+      <TableMemorijaZaRačunare />
         <Zadatak01 />
       </header>
-      <TableMemorijaZaRačunare />
+           
+     
+            <Daki />
     </div>
   );
 }
