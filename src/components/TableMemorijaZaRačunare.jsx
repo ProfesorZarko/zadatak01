@@ -1,17 +1,25 @@
 import React from 'react'
-import memorijaZaRačunare from './podaci'
+import memorijaZaRačunare from './Podaci'
 import Counter from './Counter'
-import { useState } from 'react'
+import { useState } from 'react';
 
 export default function TableMemorijaZaRačunare() {
   const [istina, setIstina] = useState(false);
+  const [prviBroj, setPrviBroj] = useState(0)
+  const [price , setPrice] = useState(0);
+
+  setPrviBroj(50)
+
   const addCounter = () => {
     console.log("kliknuto");
-    setIstina(true)
+    setIstina(true);
+    setPrice(memorijaZaRačunare[0].cena1 * prviBroj)
     }
+
+
   
   return (
-    <div><h3>memorija za računare</h3>
+    <div><h3>memorija za računare od petka</h3>
 <table>
   <tr>
     <th>Ime memorije</th>
@@ -21,8 +29,8 @@ export default function TableMemorijaZaRačunare() {
   </tr>
   <tr>
     <td>{memorijaZaRačunare[0].imeMemorije}</td>
-    <td onClick={addCounter}>{memorijaZaRačunare[0].cena1} {istina ? <Counter /> : "" }</td>
-    <td onClick={addCounter}>{memorijaZaRačunare[0].cena2} {istina ? <Counter /> : "" }</td>
+    <td onClick={addCounter}>{memorijaZaRačunare[0].cena1} {istina ? <Counter prviBroj={0} /> : "" }</td>
+    <td onClick={addCounter}>{memorijaZaRačunare[0].cena2} </td>
     <td></td>
   </tr>
   <tr>
@@ -36,6 +44,7 @@ export default function TableMemorijaZaRačunare() {
     <td onClick={addCounter}>{memorijaZaRačunare[2].cena2}{istina ? <Counter /> : "" }</td>
   </tr>
 </table>
+    <p>Total price is : {price}</p>
     </div>
   )
 }

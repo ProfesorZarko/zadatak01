@@ -9,8 +9,6 @@ function App() {
       <TableMemorijaZaRačunare />
         <Zadatak01 />
       </header>
-           
-     
             <Daki />
     </div>
   );
