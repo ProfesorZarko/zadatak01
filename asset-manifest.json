@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/zadatak01/static/css/main.073c9b0a.css",
-    "main.js": "/zadatak01/static/js/main.4d412c7b.js",
+    "main.css": "/zadatak01/static/css/main.9d1bb6ab.css",
+    "main.js": "/zadatak01/static/js/main.d27f24ac.js",
     "static/js/787.aff15de8.chunk.js": "/zadatak01/static/js/787.aff15de8.chunk.js",
     "index.html": "/zadatak01/index.html",
-    "main.073c9b0a.css.map": "/zadatak01/static/css/main.073c9b0a.css.map",
-    "main.4d412c7b.js.map": "/zadatak01/static/js/main.4d412c7b.js.map",
+    "main.9d1bb6ab.css.map": "/zadatak01/static/css/main.9d1bb6ab.css.map",
+    "main.d27f24ac.js.map": "/zadatak01/static/js/main.d27f24ac.js.map",
     "787.aff15de8.chunk.js.map": "/zadatak01/static/js/787.aff15de8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.4d412c7b.js"
+    "static/css/main.9d1bb6ab.css",
+    "static/js/main.d27f24ac.js"
   ]
 }
