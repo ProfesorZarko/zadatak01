@@ -5,10 +5,9 @@ import { useState } from 'react';
 
 export default function TableMemorijaZaRačunare() {
   const [istina, setIstina] = useState(false);
-  const [prviBroj, setPrviBroj] = useState(0)
+  var prviBroj=2;
   const [price , setPrice] = useState(0);
 
-  setPrviBroj(50)
 
   const addCounter = () => {
     console.log("kliknuto");
@@ -29,7 +28,7 @@ export default function TableMemorijaZaRačunare() {
   </tr>
   <tr>
     <td>{memorijaZaRačunare[0].imeMemorije}</td>
-    <td onClick={addCounter}>{memorijaZaRačunare[0].cena1} {istina ? <Counter prviBroj={0} /> : "" }</td>
+    <td onClick={addCounter}>{memorijaZaRačunare[0].cena1} {istina ? <Counter /> : "" }</td>
     <td onClick={addCounter}>{memorijaZaRačunare[0].cena2} </td>
     <td></td>
   </tr>

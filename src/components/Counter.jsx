@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
-export default function Counter({prviBroj}) {
+export default function Counter() {
+  var prviBroj = 1;
     const [count, setCount] = useState(0)
     const addOne=()=>{
         setCount(prevCount=>{
@@ -14,7 +15,7 @@ export default function Counter({prviBroj}) {
         setCount(count - 1);
       }
     };
-    prviBroj = count;
+  
     
 
   return (

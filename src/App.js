@@ -1,16 +1,18 @@
 import './App.css';
-import TableMemorijaZaRačunare from './components/TableMemorijaZaRačunare';
-import Zadatak01 from './pages/Zadatak01';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Daki from "./pages/Daki.jsx"
+import Home from './pages/Home';
 function App() {
   return (
+    <BrowserRouter>
       <div className="App">
-      <header className="App-header">
-      <TableMemorijaZaRačunare />
-        <Zadatak01 />
-      </header>
-            <Daki />
+          <Routes>
+            <Route path='/' element={<Home/> } />
+            <Route path='daki' element={<Daki />} />
+          </Routes>
+            
     </div>
+    </BrowserRouter>
   );
 }
 
