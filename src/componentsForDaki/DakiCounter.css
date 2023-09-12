@@ -1,0 +1,12 @@
+.DakiCounter{
+    height: 10em;
+    width: 15em;
+    background-color: azure;
+    display: flexbox;
+    justify-content: right;
+    align-items: center;
+}
+button{
+    font-size: 55px;
+    display: inline;
+}

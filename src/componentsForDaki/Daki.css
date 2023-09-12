@@ -1,0 +1,19 @@
+.bodyDaki{
+    background-color: blanchedalmond;
+    height: 100vh;
+    display: flex;
+}
+
+.upperLeft, .upperRight, .middleLeft, middleRight{
+    width: 50%;
+    height: 50%;
+}
+.upperLeft{
+    background-color: violet;
+}
+.upperRight{
+    background-color: lightgrey;
+}
+.middleLeft{
+    background-color: lightcoral;
+}
