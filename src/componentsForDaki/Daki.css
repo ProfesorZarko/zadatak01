@@ -4,9 +4,10 @@
     display: flex;
 }
 
-.upperLeft, .upperRight, .middleLeft, middleRight{
-    width: 50%;
+.upperLeft, .upperRight, .middleLeft, .middleRight{
+   
     height: 50%;
+    width: 50%;
 }
 .upperLeft{
     background-color: violet;
@@ -16,4 +17,7 @@
 }
 .middleLeft{
     background-color: lightcoral;
+}
+.middleRight{
+    background-color: orange;
 }

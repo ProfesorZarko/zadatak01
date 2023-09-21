@@ -4,6 +4,7 @@ import DakiShopingForm from '../componentsForDaki/DakiShopingForm'
 import ClockForDaki from '../componentsForDaki/ClockForDaki';
 import DakiCounter from '../componentsForDaki/DakiCounter';
 import RandomDaki from '../componentsForDaki/RandomDaki';
+import ColorBox from '../componentsForDaki/ColorBox';
 
 export default function Daki() {
   return (
@@ -18,7 +19,10 @@ export default function Daki() {
               <DakiCounter />
               <RandomDaki />
             </div>
-            <div className='middleRight'></div>
+            <div className='middleRight'>
+              <ColorBox />,
+              
+            </div>
       </div>
     </div>
   )

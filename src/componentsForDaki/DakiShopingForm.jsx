@@ -16,6 +16,7 @@ export default function DakiShopingForm() {
         <h3>Here goes some values</h3>
         <h2>value is : {formData.product} with {formData.quantity}</h2>
         <label htmlFor="product">Product Name</label>
+,,
      
           <input type="text"
           placeholder='product name'

@@ -1,0 +1,13 @@
+.ColorBox{
+    background-color: blanchedalmond;
+    height: 80%;
+    width: 30%;
+    
+}
+.ColorBox div{
+    margin: 6px solid black;
+    height: 33%;
+    display: flexbox;
+    justify-content: center;
+
+}
