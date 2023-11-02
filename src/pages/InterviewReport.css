@@ -1,0 +1,30 @@
+.header button{
+    height: auto;
+
+}
+.header{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+}
+html, .body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .wrapper {
+    box-sizing: border-box;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .header, .footer {
+    flex-grow: 0;
+    flex-shrink: 0;
+    background-color: antiquewhite;
+  }
+  .body {
+    flex-grow: 1;
+  }

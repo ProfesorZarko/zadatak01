@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, {  useState } from 'react';
 import ucenici from './ucenici';
 
 export default function Ucenici() {
@@ -14,10 +14,6 @@ export default function Ucenici() {
         ucenici.push(ucenik)
     }
    
-    useEffect(()=>{
-        handleClick()
-    }, [])
-
   return (
     <div>
         <input 
