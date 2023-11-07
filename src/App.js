@@ -4,6 +4,7 @@ import Daki from "./pages/Daki.jsx"
 import Home from './pages/Home';
 import Odeljenje from './pages/Odeljenje';
 import InterviewReport from './pages/InterviewReport';
+import PersonalCard from './interview/PersonalCard';
 function App() {
   return (
     <BrowserRouter>
@@ -13,6 +14,7 @@ function App() {
             <Route path='daki' element={<Daki />} />
             <Route path='odeljenje' element={<Odeljenje />} />
             <Route path='interview' element={<InterviewReport />} ></Route>
+            <Route path='personal' element={<PersonalCard />} ></Route>
           </Routes>
             
     </div>

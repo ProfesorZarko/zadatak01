@@ -28,3 +28,8 @@ html, .body {
   .body {
     flex-grow: 1;
   }
+  .divCards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+  }

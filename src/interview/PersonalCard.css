@@ -1,0 +1,12 @@
+.PersonalCard{
+    background: salmon;
+}
+.UpperPersonalCard{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+}
+.UpperPersonalCardLeft .UpperPersonalCardMiddle .UpperPersonalCardRight{
+    width: 30%;
+    
+}
