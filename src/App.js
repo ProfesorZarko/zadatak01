@@ -14,7 +14,7 @@ function App() {
             <Route path='daki' element={<Daki />} />
             <Route path='odeljenje' element={<Odeljenje />} />
             <Route path='interview' element={<InterviewReport />} ></Route>
-            <Route path='personal' element={<PersonalCard />} ></Route>
+            <Route path='personal/:id' element={<PersonalCard />} ></Route>
           </Routes>
             
     </div>

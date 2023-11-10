@@ -3,10 +3,29 @@
 }
 .UpperPersonalCard{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 300px;
 }
 .UpperPersonalCardLeft .UpperPersonalCardMiddle .UpperPersonalCardRight{
-    width: 30%;
-    
+    flex: 1;
+}
+.Third{
+    background-color: antiquewhite;
+    width: 400px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+table {
+    width: 1000px;
+    border: 2px solid green; 
+  
+}
+.PersonalTable tr{
+    display: flex;
+    flex-grow: 1;
+    background-color: pink;
+}
+td{
+    border: 2px solid saddlebrown;
 }

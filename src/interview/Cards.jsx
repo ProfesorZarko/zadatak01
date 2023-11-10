@@ -9,14 +9,7 @@ export default function Cards() {
   
   return (
     <div className='cards'>
-      {candidates.map((candidate, index)=>{
-        return(
-        <Card 
-          name ={candidate.name} 
-          email={candidate.email}
-        />)
-      })}
-      
+      {candidates.map((candidate) => <Card candidate={candidate} />)}  
     </div>
   )
 }
