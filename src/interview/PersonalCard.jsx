@@ -8,17 +8,18 @@ export default function PersonalCard() {
     const { id } = useParams();
     const [candidate, setCandidate] = useState({});
     const [ loading, setLoading ] = useState(false);
-
+console.log("candiodate", candidate)
     useEffect(() => {
         setLoading(true);
         axios(`http://localhost:3333/api/candidates/${id}`)
             .then(res => {
                 console.log("res", res)
-
                 setLoading(false);
+                setCandidate(res.data)
             })
             .catch(err => console.log(err))
     }, []);
+   
 
   return (
     <>
@@ -30,17 +31,25 @@ export default function PersonalCard() {
                         <p>name:</p>
                         <p>{candidate.name}</p>
                     </div>
-                    <div className='Second'><h1>second</h1></div>
+                    <div className='Second'>
+                        <p>email: </p>
+                        {candidate.email}
+                    </div>
                 </div>
                 <div className='UpperPersonalCardRight'>
-                    <div className='Third' ><h1>third</h1></div>
-                    <div className='Fourth'><h1>fourth</h1></div>
+                    <div className='Third' >
+                        <p>date of Birth: </p>
+                        <p>{candidate.birthday}</p>
+                    </div>
+                    <div className='Fourth'>
+                        <p>education : </p>
+                        <p>{candidate.education}</p></div>
                 </div>
             </div>
         </div>
         <div className='PersonalTable'>
             <h2>here goes table</h2>
-            <table>
+            <table style={{width:"100%"}}>
                 <tr>
                     <th>Company</th>
                     <th>Interview Date</th>

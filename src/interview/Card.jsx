@@ -6,6 +6,7 @@ import "./Card.css"
 
 export default function Card({candidate}) {
   const { id, name, email } = candidate;
+  console.log("candidate", candidate)
   return (
     <Link to={`/personal/${id}`} className="card">
       <img src={avatar} alt="Hot air balloons" />
