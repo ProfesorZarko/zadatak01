@@ -5,6 +5,7 @@ import Note from '../material/Note';
 import ClockMaterial from '../material/ClockMaterial';
 import ColorBox from "../material/ColorBox.jsx";
 import Joke from "../material/Joke.jsx"
+import BoxGrid from '../material/BoxGrid.jsx';
 
 
 export default function Material() {
@@ -44,11 +45,11 @@ export default function Material() {
             <div style={{width:400}}>
                 <h3> input form i zaezancija</h3>
             </div>
-             <Joke />
-            <div>
+             <Joke/>
+            <div style={{display:"flex"}}>
                 <ColorBox colors={["grey", "violet", "orange", "yellow", "red", "white", "blue"]}/>
+                <BoxGrid />
             </div>
-           
         </div>
         
     </div>
