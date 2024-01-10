@@ -7,6 +7,7 @@ import InterviewReport from './pages/InterviewReport';
 import PersonalCard from './interview/PersonalCard';
 import Material from './pages/Material.jsx';
 import StaraGodina from './pages/StaraGodina.jsx';
+import Dino from './pages/Dino.jsx';
 function App() {
   return (
     <BrowserRouter>
@@ -16,6 +17,7 @@ function App() {
             <Route path='daki' element={<Daki />} />
             <Route path='material' element={<Material />} />
             <Route path='stara' element={<StaraGodina />} />
+            <Route path='dino' element={<Dino />} />
             <Route path='odeljenje' element={<Odeljenje />} />
             <Route path='interview' element={<InterviewReport />} ></Route>
             <Route path='personal/:cid' element={<PersonalCard />} ></Route>

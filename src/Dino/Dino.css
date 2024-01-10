@@ -1,0 +1,15 @@
+.main{
+    background-color: antiquewhite;
+}
+.upper, .middle, .footer{
+    height: 200px;
+}
+.upper{
+    background-color:lightblue;
+    display: flex;
+}
+.kutija{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
