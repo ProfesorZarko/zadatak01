@@ -1,0 +1,10 @@
+.BoxGrid{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+}
+.Jole{
+    height: 150px;
+    width: 500px;
+    background-color: "grey";
+}
