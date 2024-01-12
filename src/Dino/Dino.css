@@ -1,5 +1,6 @@
 .main{
     background-color: antiquewhite;
+    
 }
 .upper, .middle, .footer{
     height: 200px;
@@ -13,3 +14,15 @@
     width: 100px;
     margin: 10px;
 }
+.btnReset{
+    height: 70px;
+    background-color:purple;
+    color:aliceblue;
+}
+.middle{
+    display: flex;
+}
+.GPTJoke{
+    width: 33%;
+}
+

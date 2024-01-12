@@ -7,6 +7,6 @@ export default function Kutija({isActive, toggle}) {
     <div className='kutija'
         style={{backgroundColor:isActive?"grey":"violet"}}
         onClick={toggle}
-    >Kutija</div>
+    ></div>
   )
 }
