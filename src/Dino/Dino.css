@@ -2,7 +2,7 @@
     background-color: antiquewhite;
     
 }
-.upper, .middle, .footer{
+.upper, .footer{
     height: 200px;
 }
 .upper{
@@ -21,6 +21,7 @@
 }
 .middle{
     display: flex;
+    height: 120px;
 }
 .GPTJoke{
     width: 33%;

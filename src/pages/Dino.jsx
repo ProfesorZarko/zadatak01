@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import "../Dino/Dino.css"
 import Kutija from '../Dino/Kutija';
 import GPTJoke from "../Dino/GPTJoke"
+import DinoGrid from '../Dino/DinoGrid';
+import DinoPrognoza from '../Dino/DinoPrognoza';
 
 export default function Dino() {
     const [count , setCount] = useState(11)
@@ -29,6 +31,7 @@ export default function Dino() {
             })}
             <button onClick={reset} className='btnReset'>reset</button>
         </div>
+        <DinoPrognoza />
         <div className='middle'>
             <GPTJoke count ={count}/>
             <GPTJoke count ={count}/>
@@ -38,7 +41,11 @@ export default function Dino() {
                 onClick={()=>{setCount(count + 1)}}
                 >click fro new joke</button>
         </div>
-        <div className='footer'>footer</div>
+        <div className='footer'>
+            <DinoGrid />
+    
+            
+        </div>
         
     </div>
   )
