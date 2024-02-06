@@ -4,6 +4,7 @@ import Kutija from '../Dino/Kutija';
 import GPTJoke from "../Dino/GPTJoke"
 import DinoGrid from '../Dino/DinoGrid';
 import DinoPrognoza from '../Dino/DinoPrognoza';
+import DinoTemperatura from "../Dino/DinoTemperatura"
 
 export default function Dino() {
     const [count , setCount] = useState(11)
@@ -32,6 +33,7 @@ export default function Dino() {
             <button onClick={reset} className='btnReset'>reset</button>
         </div>
         <DinoPrognoza />
+        <DinoTemperatura />
         <div className='middle'>
             <GPTJoke count ={count}/>
             <GPTJoke count ={count}/>

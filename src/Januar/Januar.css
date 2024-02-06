@@ -1,0 +1,22 @@
+.main {
+    margin-left: 10%;
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 80%;
+    display: center;
+}
+.footer, .header{height: 20%;
+        background-color: blueviolet;}
+
+.middle{
+    height: 60%;
+    display: flex;
+}
+
+.l, .m, .r{
+    width: 33%;
+    margin: 15px;
+}
+.m{width: 300px;
+background-color: yellow;
+border: 22px solid black;}
