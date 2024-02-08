@@ -1,0 +1,11 @@
+.Stef{
+    color:red;
+    animation: 3s 3 alternate rotate;
+}
+
+
+@keyframes rotate{
+    0% {transform: translateX(-200px); }
+    100% {transform: translateX(200px); ;}
+    
+}

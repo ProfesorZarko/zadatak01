@@ -1,11 +1,12 @@
 import React from 'react';
 import "../Januar/Januar.css"
+import LevoDesno from '../Januar/LevoDesno';
 
 export default function Januar() {
   return (
     <div className='main'>
         <div className='header'>
-            <h4>image for site</h4>
+            <LevoDesno />
             <h4>navbar</h4>
         </div>
         <div className='middle'>

@@ -9,6 +9,7 @@ import Material from './pages/Material.jsx';
 import StaraGodina from './pages/StaraGodina.jsx';
 import Dino from './pages/Dino.jsx';
 import Januar from './pages/Januar.jsx';
+import Februar24 from './pages/Februar24.jsx';
 function App() {
   return (
     <BrowserRouter>
@@ -21,6 +22,7 @@ function App() {
             <Route path='dino' element={<Dino />} />
             <Route path='odeljenje' element={<Odeljenje />} />
             <Route path='januar' element={<Januar />} />
+            <Route path='februar' element={<Februar24 />} />
             <Route path='interview' element={<InterviewReport />} ></Route>
             <Route path='personal/:cid' element={<PersonalCard />} ></Route>
             
